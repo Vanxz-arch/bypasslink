@@ -414,7 +414,7 @@ export default function Home() {
               <button className="btn-sm" onClick={fetchStats}>↻ REFRESH</button>
             </div>
             {history.length===0 ? (
-              <div style={{ textAlign:'center', padding:'40px 0', color:'#39ff1433', fontSize:12' }}>
+              <div style={{ textAlign:'center', padding:'40px 0', color:'#39ff1433', fontSize:12 }}>
                 NO DATA FOUND<span className="blink">_</span>
               </div>
             ) : history.map((h,i)=>(
